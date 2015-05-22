@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="Kirjastot/jquery-1.11.2.min.js"></script>
+
+    <button style="position:relative; top:727px; left:528px;" id="kakka" onclick="funktion">î</button>
+    <button style="position:relative; top:1293px; left:491px;" id="kukkeli" onclick="funktion">up</button>
+
+    <script>
+        function funktio() {
+            $(document).ready(function () {
+                $("#kakka").click(function () {
+                    $("#kukkeli").animate({ top: '250px' });
+                });
+            });
+        }
+    </script>
+
+</head>
+</html>
